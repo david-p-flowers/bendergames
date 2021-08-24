@@ -1,0 +1,83 @@
+.titlearea{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.titlename{
+    font-family: pt-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200px;
+    margin-left: 20px;
+    color: #323232;
+}
+
+.logoimage{
+    width: 50px;
+    height: 50px;
+}
+
+.textarea{
+    justify-content: left;
+    margin-left: 40%;
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+}
+
+#companytagline{
+    margin-top: 40px;
+    width: 550px;
+
+    font-family: pt-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+
+    color: #323232;
+}
+
+#companydescription{
+    margin-top: 40px;
+    width: 400px;
+
+    font-family: pt-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #7f7f7f;
+}
+
+#discordbutton{
+    margin-top: 100px;
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+
+    font-family: pt-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#discordbutton:hover{
+    background-color: purple;
+}
+
+.imagearea{
+    display: flex;
+    margin-left: 45%;
+    margin-top: -37%;
+}
+
+#illustrationimage{
+    display: flex;
+    height: 500px;
+    width: 700px;
+    margin-right: 300px;
+}
