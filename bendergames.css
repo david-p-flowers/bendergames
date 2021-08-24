@@ -22,7 +22,7 @@
     justify-content: left;
     margin-left: 40%;
     transform: translate(-50%, -50%);
-    margin-top: 20%;
+    margin-top: 26%;
 }
 
 #companytagline{
@@ -81,3 +81,53 @@
     width: 700px;
     margin-right: 300px;
 }
+
+@media only screen and (max-width: 800px) {
+
+    .imagearea{
+        justify-content: left;
+        margin-top: -25%;
+        margin-left: 0%;
+    }
+
+    #illustrationimage{
+        justify-content: center;
+        height: 300px;
+        width: 400px;
+        margin-right: 300px;
+    }
+
+    .textarea{
+        justify-content: center;
+        margin-left: 40%;
+        transform: translate(-50%, -50%);
+        margin-top: 50%;
+    }
+
+    #companytagline{
+        margin-top: 40px;
+        width: 400px;
+    
+        font-family: pt-sans-pro, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+    
+        color: #323232;
+    }
+    
+    #companydescription{
+        margin-top: 40px;
+        width: 400px;
+    
+        font-family: pt-sans-pro, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    
+        color: #7f7f7f;
+    }
+}
+
+}
+
